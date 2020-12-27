@@ -25,7 +25,7 @@ $(document).ready(() => {
             }).done((repos) => {
                 $.each(repos, (index, repo) => {
                     $('#repos').append(`
-                    <div class="card">
+                    <div class="card mb-2">
                     <div class="row">
                       <div class="col-md-7">
                         <strong>${repo.name}</strong>: ${repo.description}
